@@ -5,11 +5,23 @@ document.addEventListener('DOMContentLoaded', function() {
     // Animation du menu mobile
     const menuToggle = document.querySelector('.hamburger');
     const nav = document.querySelector('.nav-menu');
+    const barre1 = document.querySelector('.bar:first-child');
+    const barre2 = document.querySelector('.bar:nth-child(2)');
+    const barre3 = document.querySelector('.bar:last-child');
     
     if (menuToggle && nav) {
         menuToggle.addEventListener('click', function() {
             nav.classList.toggle('active');
             menuToggle.classList.toggle('active');
+            if (nav.classList.contains('active')) {
+                barre2.style.display = 'none';
+                barre1.style.transform = 'rotate(45deg) translate(7px, 6px)';
+                barre3.style.transform = 'rotate(-45deg) translate(0, 0)';
+            } else {
+                barre2.style.display = 'block';
+                barre1.style.transform = 'rotate(0deg)';
+                barre3.style.transform = 'rotate(0deg)';
+            }
         });
     }
 
@@ -20,6 +32,9 @@ document.addEventListener('DOMContentLoaded', function() {
             if (nav && menuToggle) {
                 nav.classList.remove('active');
                 menuToggle.classList.remove('active');
+                barre2.style.display = 'block';
+                barre1.style.transform = 'rotate(0deg)';
+                barre3.style.transform = 'rotate(0deg)';
             }
         });
     });
