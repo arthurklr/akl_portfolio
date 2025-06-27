@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Développeur Web</title>
+    <meta name="description" content="Portfolio professionnel de développement web avec projets en PHP, JavaScript, WordPress et plus">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Portfolio</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projets.html" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="apropos.html" class="nav-link">À Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Développeur Full-Stack passionné</span>
+                </div>
+                <h1 class="hero-title">Créateur d'expériences numériques</h1>
+                <p class="hero-subtitle">Je transforme vos idées en applications web modernes et performantes. Spécialisé dans HTML, CSS, JavaScript, PHP, WordPress et les technologies web.</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">Projets Réalisés</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Années d'Expérience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Satisfaction Client</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="projets.html" class="btn btn-primary">
+                        <i class="fas fa-eye"></i>
+                        Voir mes projets
+                    </a>
+                    <a href="contact.html" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i>
+                        Me contacter
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-code-window">
+                    <div class="code-header">
+                        <div class="code-dots">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <span class="code-title">portfolio.js</span>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line">
+                            <span class="line-number">1</span>
+                            <span class="code-text"><span class="keyword">const</span> <span class="variable">developer</span> = {</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">2</span>
+                            <span class="code-text">  <span class="property">name</span>: <span class="string">'Arthur K - AKL'</span>,</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">3</span>
+                            <span class="code-text">  <span class="property">skills</span>: [<span class="string">'HTML'</span>, <span class="string">'CSS'</span>, <span class="string">'JS'</span>, <span class="string">'PHP'</span>],</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">4</span>
+                            <span class="code-text">  <span class="property">passion</span>: <span class="string">'Créer des expériences uniques'</span></span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">5</span>
+                            <span class="code-text">};</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">6</span>
+                            <span class="code-text"></span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">7</span>
+                            <span class="code-text"><span class="keyword">function</span> <span class="function">createProject</span>() {</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">8</span>
+                            <span class="code-text">  <span class="keyword">return</span> <span class="string">'Something amazing!'</span>;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">9</span>
+                            <span class="code-text">}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes Services</h2>
+                <p class="section-subtitle">Des solutions complètes pour votre présence numérique</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Développement Web</h3>
+                    <p>Sites web modernes et responsives avec HTML, CSS, JavaScript et PHP</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Sites vitrines</li>
+                        <li><i class="fas fa-check"></i> Applications web</li>
+                        <li><i class="fas fa-check"></i> Sites e-commerce</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-wordpress"></i>
+                    </div>
+                    <h3>WordPress</h3>
+                    <p>Création et personnalisation de sites WordPress avec plugins et thèmes sur mesure</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Thèmes personnalisés</li>
+                        <li><i class="fas fa-check"></i> Plugins sur mesure</li>
+                        <li><i class="fas fa-check"></i> Maintenance WordPress</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Applications Mobiles</h3>
+                    <p>Applications hybrides et PWA avec React Native et technologies web</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Applications hybrides</li>
+                        <li><i class="fas fa-check"></i> PWA (Progressive Web Apps)</li>
+                        <li><i class="fas fa-check"></i> React Native</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Développement Python</h3>
+                    <p>Scripts, automatisation et applications backend avec Python</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Scripts d'automatisation</li>
+                        <li><i class="fas fa-check"></i> Applications backend</li>
+                        <li><i class="fas fa-check"></i> Analyse de données</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Featured Projects -->
+    <section class="featured-projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projets en Vedette</h2>
+                <p class="section-subtitle">Découvrez mes réalisations les plus récentes</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Les projets seront chargés dynamiquement depuis le JSON -->
+            </div>
+            <div class="projects-cta">
+                <a href="projets.html" class="btn btn-outline">
+                    <i class="fas fa-folder-open"></i>
+                    Voir tous mes projets
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ce qu'en disent mes clients</h2>
+                <p class="section-subtitle">Témoignages de clients satisfaits</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Excellent travail ! Le développeur a créé un site web moderne et fonctionnel qui dépasse nos attentes. Communication parfaite et respect des délais."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/profile.png" alt="Client 1">
+                        <div>
+                            <h4>Marie Dubois</h4>
+                            <span>Gérante, Boutique en ligne</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Site WordPress parfait ! Thème personnalisé, plugins adaptés et formation complète. Je recommande vivement ce développeur !"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/profile.png" alt="Client 2">
+                        <div>
+                            <h4>Thomas Martin</h4>
+                            <span>Fondateur, Cabinet de conseil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Application mobile livrée dans les temps avec toutes les fonctionnalités demandées. Très professionnel et compétent."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/profile.png" alt="Client 3">
+                        <div>
+                            <h4>Sophie Bernard</h4>
+                            <span>Directrice, Startup Tech</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Portfolio</h3>
+                    <p>Développeur passionné créant des expériences numériques exceptionnelles</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="projets.html">Projets</a></li>
+                        <li><a href="apropos.html">À Propos</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Développement Web</a></li>
+                        <li><a href="#">Applications Mobiles</a></li>
+                        <li><a href="#">Design UI/UX</a></li>
+                        <li><a href="#">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> contact@portfolio.com</p>
+                    <p><i class="fas fa-phone"></i> +33 1 23 45 67 89</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Paris, France</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Portfolio. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/projects.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 

@@ -1,0 +1,118 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Portfolio Personnel",
+      "description": "Portfolio moderne avec animations CSS et JavaScript, design responsive et formulaire de contact",
+      "image": "assets/images/project1.svg",
+      "alt": "Portfolio Personnel",
+      "badge": "Projet Récent",
+      "badgeType": "recent",
+      "tags": ["HTML5", "CSS3", "JavaScript", "GSAP", "PHP"],
+      "stats": {
+        "views": "1k",
+        "rating": "4.8/5"
+      },
+      "links": {
+        "demo": "#",
+        "github": "#"
+      },
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "Data Analytics",
+      "description": "Dashboard interactif pour la visualisation de données avec graphiques dynamiques et filtres en temps réel.",
+      "image": "assets/images/project2.svg",
+      "alt": "Data Analytics",
+      "badge": "Tendance",
+      "badgeType": "trending",
+      "tags": ["HTML5", "CSS3", "JavaScript", "GSAP", "Chart.js"],
+      "stats": {
+        "views": "500+",
+        "rating": "4.5/5"
+      },
+      "links": {
+        "demo": "https://data.arthurkientzler.fr/",
+        "github": "https://github.com/arthurklr/ProjetU_S3"
+      },
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "Site WordPress",
+      "description": "Site web professionnel avec thème personnalisé et plugins sur mesure pour une entreprise",
+      "image": "assets/images/project3.svg",
+      "alt": "Site WordPress",
+      "badge": "Innovant",
+      "badgeType": "innovative",
+      "tags": ["WordPress", "PHP", "CSS3", "JavaScript"],
+      "stats": {
+        "visitors": "300+",
+        "rating": "4.7/5"
+      },
+      "links": {
+        "demo": "#",
+        "github": "#"
+      },
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Portfolio Personnel",
+      "description": "Portfolio moderne avec animations CSS et JavaScript, design responsive et formulaire de contact",
+      "image": "assets/images/project4.svg",
+      "alt": "Portfolio Personnel",
+      "badge": "Personnel",
+      "badgeType": "personal",
+      "tags": ["HTML5", "CSS3", "JavaScript", "PHP"],
+      "stats": {
+        "views": "800+",
+        "rating": "4.9/5"
+      },
+      "links": {
+        "demo": "#",
+        "github": "#"
+      },
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Blog Technologique",
+      "description": "Blog avec système de gestion de contenu, commentaires et authentification utilisateur",
+      "image": "assets/images/project5.svg",
+      "alt": "Blog Technologique",
+      "badge": "Éducatif",
+      "badgeType": "educational",
+      "tags": ["PHP", "MySQL", "JavaScript", "Bootstrap"],
+      "stats": {
+        "articles": "50+",
+        "rating": "4.5/5"
+      },
+      "links": {
+        "demo": "#",
+        "github": "#"
+      },
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "Dashboard Admin",
+      "description": "Interface d'administration avec graphiques, statistiques et gestion des utilisateurs",
+      "image": "assets/images/project6.svg",
+      "alt": "Dashboard Admin",
+      "badge": "Professionnel",
+      "badgeType": "professional",
+      "tags": ["PHP", "JavaScript", "Chart.js", "MySQL"],
+      "stats": {
+        "users": "100+",
+        "rating": "4.7/5"
+      },
+      "links": {
+        "demo": "#",
+        "github": "#"
+      },
+      "featured": false
+    }
+  ]
+} 
