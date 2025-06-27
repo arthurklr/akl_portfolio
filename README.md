@@ -183,4 +183,4 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 
 ---
 
-**Développé avec ❤️ pour créer des portfolios professionnels modernes** 
+**Développé avec ❤️ par AKL** 
